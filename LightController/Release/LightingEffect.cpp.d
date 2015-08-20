@@ -1,4 +1,3 @@
-LightingEffect.cpp.d LightingEffect.cpp.o: ../LightingEffect.cpp \
-  ../LightingEffect.h
+LightingEffect.cpp.d: ../LightingEffect.cpp ../LightingEffect.h
 
 ../LightingEffect.h:

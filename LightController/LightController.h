@@ -16,6 +16,9 @@ extern "C" {
 #endif
 void loop();
 void setup();
+void lightsOut();
+void lightsOn();
+
 #ifdef __cplusplus
 } // extern "C"
 #endif

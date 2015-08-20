@@ -33,7 +33,7 @@ int bluVal = black[2];
 
 int wait = 10;      // 10ms internal crossFade delay; increase for slower fades
 int hold = 0;       // Optional hold when a color is complete, before the next crossFade
-int DEBUG = 1;      // DEBUG counter; if set to 1, will write values back via serial
+int DEBUG = 0;      // DEBUG counter; if set to 1, will write values back via serial
 int loopCount = 20; // How often should DEBUG report?
 
 

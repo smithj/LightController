@@ -53,6 +53,15 @@ public:
 
 	}
 
+	virtual void lightsOut(){
+
+		analogWrite(redPin, 0);
+		analogWrite(grnPin, 0);
+		analogWrite(bluPin, 0);
+
+	};
+
+
 private:
 
 	const static int intensityLeftShift = 2;  // divide the output brightness by this number

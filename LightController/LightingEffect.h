@@ -15,6 +15,8 @@ public:
 
 	inline virtual void initialize(){   };
 	virtual void show(){};
+	virtual void lightsOut(){};
+
 };
 
 #endif /* LIGHTINGEFFECT_H_ */

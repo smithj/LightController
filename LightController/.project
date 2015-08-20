@@ -27,6 +27,21 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>Libraries/DS1307RTC</name>
+			<type>2</type>
+			<locationURI>ArduinoPivateLibPath/DS1307RTC</locationURI>
+		</link>
+		<link>
+			<name>Libraries/Time</name>
+			<type>2</type>
+			<locationURI>ArduinoPivateLibPath/Time</locationURI>
+		</link>
+		<link>
+			<name>Libraries/Wire</name>
+			<type>2</type>
+			<locationURI>ArduinoHardwareLibPath/Wire</locationURI>
+		</link>
+		<link>
 			<name>arduino/core</name>
 			<type>2</type>
 			<locationURI>ArduinoPlatformPath/cores/arduino</locationURI>
@@ -34,21 +49,25 @@
 		<link>
 			<name>arduino/variant</name>
 			<type>2</type>
-			<locationURI>ArduinoPinPath/standard</locationURI>
+			<locationURI>ArduinoPinPath/eightanaloginputs</locationURI>
 		</link>
 	</linkedResources>
 	<variableList>
 		<variable>
 			<name>ArduinoHardwareLibPath</name>
-			<value>file:/opt/arduino-1.5.5/hardware/arduino/avr/libraries</value>
+			<value>file:/opt/arduino-1.5.7/hardware/arduino/avr/libraries</value>
 		</variable>
 		<variable>
 			<name>ArduinoPinPath</name>
-			<value>file:/opt/arduino-1.5.5/hardware/arduino/avr/variants</value>
+			<value>file:/opt/arduino-1.5.7/hardware/arduino/avr/variants</value>
 		</variable>
 		<variable>
 			<name>ArduinoPlatformPath</name>
-			<value>file:/opt/arduino-1.5.5/hardware/arduino/avr</value>
+			<value>file:/opt/arduino-1.5.7/hardware/arduino/avr</value>
+		</variable>
+		<variable>
+			<name>Wire</name>
+			<value>file:/opt/arduino-1.5.7/hardware/arduino/avr/libraries/Wire</value>
 		</variable>
 	</variableList>
 </projectDescription>
